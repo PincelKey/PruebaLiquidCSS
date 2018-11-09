@@ -20,7 +20,7 @@ body{
 .triangle{
     width: 100px;
     height: 100px;
-    background: red;
+    background: green;
     border-radius: 50%;
     position: absolute;
 }
