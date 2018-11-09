@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
 .container{
     width: 70%;
     height: 50vh;
@@ -18,7 +18,7 @@
 .triangle{
     width: 100px;
     height: 100px;
-    background: green;
+    background: yellowgreen;
     border-radius: 50%;
     position: absolute;
 }
