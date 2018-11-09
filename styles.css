@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    
+}
+.container{
+    width: 70%;
+    height: 50vh;
+    position: relative;
+    top: 100px;
+    margin: auto;
+    background: #fff;
+    filter: blur(10px) contrast(20);
+}
+
+.triangle{
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.triangle_one{
+    left: 0%;
+    top: 40%;
+    animation: triangle_one 2s ease infinite;
+    animation-fill-mode: forwards;
+}
+
+.triangle_two{
+    right: 0%;
+    top: 40%;
+    animation: triangle_two 2s ease infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes triangle_one{
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: 45%;
+    }
+    100%{
+        left: 45%;
+    }
+}
+
+@keyframes triangle_two{
+    0%{
+        right: 10%;
+    }
+    50%{
+        right: 45%;
+    }
+    100%{
+        right: 45%;
+    }    
+}
