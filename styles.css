@@ -18,7 +18,7 @@
 .triangle{
     width: 100px;
     height: 100px;
-    background: rgb(0, 255, 64);
+    background: green;
     border-radius: 50%;
     position: absolute;
 }
